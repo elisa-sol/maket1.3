@@ -1,3 +1,36 @@
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('../fonts/TTLakes/TTLakes-Bold.eot');
+    src: local('TT Lakes Bold'), local('TTLakes-Bold'),
+    url('../fonts/TTLakes/TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TTLakes/TTLakes-Bold.woff') format('woff'),
+    url('../fonts/TTLakes/TTLakes-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('../fonts/TTLakes/TTLakes-Thin.eot');
+    src: local('TT Lakes Thin'), local('TTLakes-Thin'),
+    url('../fonts/TTLakes/TTLakes-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TTLakes/TTLakes-Thin.woff') format('woff'),
+    url('../fonts/TTLakes/TTLakes-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('../fonts/TTLakes/TTLakes-Regular.eot');
+    src: local('TT Lakes Regular'), local('TTLakes-Regular'),
+    url('../fonts/TTLakes/TTLakes-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TTLakes/TTLakes-Regular.woff') format('woff'),
+    url('../fonts/TTLakes/TTLakes-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html, body {
     font-size: 100%;
     font-family: "TT Lakes", sans-serif;
@@ -25,6 +58,8 @@ html, body {
 
 .slideMenu__button {
     font-family: "TT Lakes", sans-serif;
+    font-weight: normal;
+    font-style: normal;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.2px;
@@ -78,9 +113,9 @@ html, body {
 
     .mainBlock__text {
         font-family: "TT Lakes", sans-serif;
-        font-weight: 100;
-        color: rgb(27, 28, 33);
+        font-weight: normal;
         font-style: normal;
+        color: #1B1C21;
         font-size: 14px;
         line-height: 18px;
         letter-spacing: 0.2px;
@@ -152,7 +187,7 @@ html, body {
 
     .mainBlock__text {
         font-family: "TT Lakes", sans-serif;
-        font-weight: 100;
+        font-weight: normal;
         color: rgb(27, 28, 33);
         font-style: normal;
         font-size: 14px;
@@ -236,7 +271,7 @@ html, body {
 
     .mainBlock__text {
         font-family: "TT Lakes", sans-serif;
-        font-weight: 100;
+        font-weight: normal;
         color: rgb(27, 28, 33);
         font-style: normal;
         font-size: 14px;
@@ -251,19 +286,7 @@ html, body {
         align-self: start;
         margin: 5px 5px 0;
         grid-area: reading;
-    }
 
-    .mainBlock__readMore {
-        font-family: "TT Lakes", sans-serif;
-        font-weight: 500;
-        color: rgb(27, 28, 33);
-        font-style: normal;
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: -0.2px;
-        text-align: left;
-        margin-left: 20px;
-        grid-area: reading;
     }
 
     img {
