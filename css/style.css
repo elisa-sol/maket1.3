@@ -44,9 +44,6 @@ html, body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    /*column-gap: 10px;*/
-    /*margin-top: 20px;*/
-    /*margin-bottom: 20px;*/
 }
 
 .title__text {
@@ -95,8 +92,9 @@ html, body {
         min-height: 88px;
         min-width: 320px;
         background: white;
-        margin: 0;
         border-bottom: 1px solid rgb(217, 255, 245);
+        margin: 0;
+        padding: 0;
     }
 
     .hidden {
@@ -136,15 +134,16 @@ html, body {
     }
 
     img {
-        min-width: 320px;
-        height: 176px;
+        width: 100%;
+        height: 100%;
         top: 386px;
         margin-top: 0;
+        margin-right: 0;
         margin-bottom: 20px;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1120px) {
+@media screen and (min-width: 768px) and (max-width: 1119px) {
 
     .upperMenu {
         display: flex;
@@ -186,9 +185,12 @@ html, body {
     .slideMenu {
         min-width: 246px;
         max-height: 40px;
-        margin-left: 20px;
         overflow: scroll;
         white-space: nowrap;
+    }
+
+    .slideMenu__button {
+        margin-left: 20px;
     }
 
     .slideMenu::-webkit-scrollbar {
@@ -227,11 +229,11 @@ html, body {
     }
 
     img {
-        width: 360px;
-        height: 208px;
+        width: 100%;
+        height: 100%;
         top: 256px;
         left: 384px;
-        margin-top: 0;
+        margin-top: 20px;
         margin-bottom: 20px;
         align-self: center;
         grid-area: pic;
@@ -239,6 +241,11 @@ html, body {
 }
 
 @media screen and (min-width: 1120px) {
+    body {
+        max-width: 1120px;
+        margin: 0 auto;
+    }
+
     .upperMenu {
         display: none;
     }
