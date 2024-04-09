@@ -178,7 +178,9 @@ html, body {
         padding-right: 20px;
     }
 
-    .visibility {
+    .upperMenu__repair2,
+    .upperMenu__checkStatus2,
+    .mainBlock__text2 {
         display: none;
     }
 
@@ -255,19 +257,19 @@ html, body {
         margin-right: auto;
     }
 
-    .upperMenu__repair,
-    .upperMenu__checkStatus {
+    .upperMenu__repair2,
+    .upperMenu__checkStatus2 {
         padding-top: 5px;
         padding-right: 25px;
     }
 
-    .upperMenu__repair::before {
+    .upperMenu__repair2::before {
         content: "Оставить заявку";
         position: relative;
         top: -15px;
     }
 
-    .upperMenu__checkStatus::before {
+    .upperMenu__checkStatus2::before {
         content: "Статус ремонта";
         position: relative;
         top: -15px;
